@@ -21,4 +21,10 @@ end
 
 def find_the_cheese(array_strings)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  array_strings.indclude? do |item|
+    item == cheese_types
+    if TRUE
+      return item
+    end
+  end
 end
