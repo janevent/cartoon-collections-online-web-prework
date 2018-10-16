@@ -23,10 +23,8 @@ def find_the_cheese(array_strings)
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese_types.each do |item, index|
     array_strings.include?(cheese_types[index])
-      if TRUE
-        return item
-      end
+    if TRUE
+      return item
     end
   end
-  
 end
